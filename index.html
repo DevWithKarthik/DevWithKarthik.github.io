@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karthik M — Python Full-Stack Developer</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+
+  <div id="cursor-glow"></div>
+
+  <!-- ── NAV ── -->
+  <nav class="navbar navbar-expand-lg" id="mainNav">
+    <div class="container">
+      <a class="nav-brand" href="#hero">KARTHIK M<span>.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+        <ul class="navbar-nav gap-1">
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="container" style="position:relative; z-index:1;">
+      <div class="row align-items-center gy-5">
+
+        <div class="col-lg-7">
+          <div class="hero-badge">
+            <span class="dot"></span>
+            Available for opportunities
+          </div>
+          <h1 class="hero-title">
+            Karthik<br>
+            <span class="line2">Full</span><span class="accent-word">-Stack</span><br>
+            <span class="line2">Developer</span>
+          </h1>
+          <p class="hero-sub">
+            Python · Django · MySQL · JavaScript<br>
+            Building scalable web applications with clean architecture and seamless user experiences.
+            Career-transitioning from 3.4 years at Wipro.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn-primary-custom">
+              View Projects <i class="fas fa-arrow-right" style="font-size:0.8rem;"></i>
+            </a>
+            <a href="M_Karthik_Resume.pdf" download="Karthik_M_Resume.pdf" class="btn-outline-custom btn-download">
+              <i class="fas fa-download" style="font-size:0.8rem;"></i> Download Resume
+            </a>
+            <a href="#contact" class="btn-outline-custom">
+              <i class="fas fa-envelope" style="font-size:0.8rem;"></i> Get in Touch
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <div class="stat-num">3.4<span>+</span></div>
+              <div class="stat-label">Years at Wipro</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">4<span>+</span></div>
+              <div class="stat-label">Projects Built</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">8<span>+</span></div>
+              <div class="stat-label">Tech Skills</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="hero-code-block">
+            <div class="code-dots">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="code-line"><span class="c-muted"># karthik.py</span></div>
+            <div class="code-line">&nbsp;</div>
+            <div class="code-line"><span class="c-purple">class</span> <span class="c-blue">Developer</span>:</div>
+            <div class="code-line">&nbsp;&nbsp;<span class="c-purple">def</span> <span
+                class="c-blue">__init__</span>(self):</div>
+            <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;self.<span class="c-green">name</span> = <span
+                class="c-orange">"Karthik M"</span></div>
+            <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;self.<span class="c-green">role</span> = <span
+                class="c-orange">"Full-Stack Dev"</span></div>
+            <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;self.<span class="c-green">stack</span> = [</div>
+            <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-orange">"Python"</span>, <span
+                class="c-orange">"Django"</span>,</div>
+            <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-orange">"MySQL"</span>, <span
+                class="c-orange">"JavaScript"</span></div>
+            <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;]</div>
+            <div class="code-line">&nbsp;</div>
+            <div class="code-line">&nbsp;&nbsp;<span class="c-purple">def</span> <span
+                class="c-blue">get_status</span>(self):</div>
+            <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-purple">return</span> <span
+                class="c-orange">"Open to Work ✓"</span><span class="typing-cursor"></span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-lg-6 reveal">
+          <div class="section-label">About Me</div>
+          <h2 class="section-title">The Story Behind<br>the Developer</h2>
+        </div>
+        <div class="col-lg-6 reveal reveal-delay-1">
+          <p class="section-desc" style="margin-top:0.5rem;">
+            I'm a Python Full-Stack Developer making a deliberate career shift from enterprise mainframe systems at
+            Wipro. My background in large-scale production systems, Agile workflows, and debugging brings a unique
+            advantage to web development.
+          </p>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3 reveal">
+          <div class="about-card">
+            <div class="icon"><i class="fas fa-code"></i></div>
+            <h5>Full-Stack Builder</h5>
+            <p>End-to-end development from database design to responsive UI — using Django, MySQL, HTML/CSS, and
+              Bootstrap.</p>
+            <div style="display:flex; flex-wrap:wrap; gap:0.4rem; margin-top:1rem;">
+              <span
+                style="background:rgba(6,214,160,0.1); border:1px solid rgba(6,214,160,0.25); color:var(--accent3); font-size:0.72rem; padding:0.2rem 0.6rem; border-radius:100px;">Django</span>
+              <span
+                style="background:rgba(6,214,160,0.1); border:1px solid rgba(6,214,160,0.25); color:var(--accent3); font-size:0.72rem; padding:0.2rem 0.6rem; border-radius:100px;">JavaScript</span>
+              <span
+                style="background:rgba(6,214,160,0.1); border:1px solid rgba(6,214,160,0.25); color:var(--accent3); font-size:0.72rem; padding:0.2rem 0.6rem; border-radius:100px;">GitHub</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 reveal reveal-delay-1">
+          <div class="about-card">
+            <div class="icon"><i class="fas fa-industry"></i></div>
+            <h5>Enterprise Background</h5>
+            <p>3.4 years at Wipro on large-scale payment processing systems. Strong in production debugging, SLA
+              adherence, and Agile.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 reveal reveal-delay-2">
+          <div class="about-card">
+            <div class="icon"><i class="fas fa-layer-group"></i></div>
+            <h5>Architecture Thinker</h5>
+            <p>Experienced in multi-app Django architecture, relational database design, and role-based access control
+              systems.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 reveal reveal-delay-3">
+          <div class="about-card">
+            <div class="icon" style="background: rgba(6,214,160,0.12); color: var(--accent3);"><i
+                class="fas fa-brain"></i></div>
+            <h5>Continuous Learner</h5>
+            <p>Actively exploring React, Machine Learning, and AI tools. Certified in Google Generative AI
+              Fundamentals.
+              Always upskilling beyond the comfort zone.</p>
+            <div style="display:flex; flex-wrap:wrap; gap:0.4rem; margin-top:1rem;">
+              <span
+                style="background:rgba(6,214,160,0.1); border:1px solid rgba(6,214,160,0.25); color:var(--accent3); font-size:0.72rem; padding:0.2rem 0.6rem; border-radius:100px;">React</span>
+              <span
+                style="background:rgba(6,214,160,0.1); border:1px solid rgba(6,214,160,0.25); color:var(--accent3); font-size:0.72rem; padding:0.2rem 0.6rem; border-radius:100px;">ML</span>
+              <span
+                style="background:rgba(6,214,160,0.1); border:1px solid rgba(6,214,160,0.25); color:var(--accent3); font-size:0.72rem; padding:0.2rem 0.6rem; border-radius:100px;">AI
+                Tools</span>
+              <span
+                style="background:rgba(6,214,160,0.1); border:1px solid rgba(6,214,160,0.25); color:var(--accent3); font-size:0.72rem; padding:0.2rem 0.6rem; border-radius:100px;">LLMs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section id="skills">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-lg-5 reveal">
+          <div class="section-label">Technical Skills</div>
+          <h2 class="section-title">My Tech<br>Arsenal</h2>
+          <p class="section-desc">A focused stack built for building real-world web applications, fast and clean.</p>
+        </div>
+      </div>
+      <div class="row g-5 align-items-start">
+
+        <div class="col-lg-6 reveal">
+          <div class="skill-group">
+            <div class="skill-group-title">Frontend</div>
+            <div class="skill-tags">
+              <span class="skill-tag highlight">HTML5</span>
+              <span class="skill-tag highlight">CSS3</span>
+              <span class="skill-tag highlight">Bootstrap 5</span>
+              <span class="skill-tag highlight">JavaScript</span>
+              <span class="skill-tag">Responsive Design</span>
+              <span class="skill-tag">DOM Manipulation</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="skill-group-title">Backend</div>
+            <div class="skill-tags">
+              <span class="skill-tag highlight">Python</span>
+              <span class="skill-tag highlight">Django</span>
+              <span class="skill-tag">Django ORM</span>
+              <span class="skill-tag">Django REST Framework</span>
+              <span class="skill-tag">REST API Development</span>
+              <span class="skill-tag">Authentication</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="skill-group-title">Database & Tools</div>
+            <div class="skill-tags">
+              <span class="skill-tag highlight">MySQL</span>
+              <span class="skill-tag">Relational DB Design</span>
+              <span class="skill-tag highlight">Git & GitHub</span>
+              <span class="skill-tag">JIRA</span>
+              <span class="skill-tag">VS Code</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="skill-group-title">Enterprise (Wipro)</div>
+            <div class="skill-tags">
+              <span class="skill-tag">COBOL</span>
+              <span class="skill-tag">JCL</span>
+              <span class="skill-tag">DB2</span>
+              <span class="skill-tag">SQL</span>
+              <span class="skill-tag">Mainframe Systems</span>
+              <span class="skill-tag highlight">Agile / Scrum</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="skill-group-title" style="color: var(--accent3);">🚀 Currently Exploring</div>
+            <div class="skill-tags">
+              <span class="skill-tag"
+                style="border-color:rgba(6,214,160,0.35); color:var(--accent3); background:rgba(6,214,160,0.07);">React.js</span>
+              <span class="skill-tag"
+                style="border-color:rgba(6,214,160,0.35); color:var(--accent3); background:rgba(6,214,160,0.07);">Machine
+                Learning</span>
+              <span class="skill-tag"
+                style="border-color:rgba(6,214,160,0.35); color:var(--accent3); background:rgba(6,214,160,0.07);">AI
+                Tools</span>
+              <span class="skill-tag"
+                style="border-color:rgba(6,214,160,0.35); color:var(--accent3); background:rgba(6,214,160,0.07);">LLM
+                APIs</span>
+              <span class="skill-tag"
+                style="border-color:rgba(6,214,160,0.35); color:var(--accent3); background:rgba(6,214,160,0.07);">Prompt
+                Engineering</span>
+              <span class="skill-tag"
+                style="border-color:rgba(6,214,160,0.35); color:var(--accent3); background:rgba(6,214,160,0.07);">REST +
+                AI Integration</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 reveal reveal-delay-1">
+          <div class="skills-visual">
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>Python / Django</span><span>Advanced</span></div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-width="88"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>HTML / CSS / Bootstrap</span><span>Advanced</span></div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-width="92"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>JavaScript</span><span>Intermediate</span></div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-width="75"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>MySQL / DB Design</span><span>Advanced</span></div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill green" data-width="85"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>Git & Version Control</span><span>Proficient</span></div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill green" data-width="80"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>Enterprise / COBOL / JCL</span><span>Expert</span></div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-width="95"></div>
+              </div>
+            </div>
+            <div style="border-top: 1px solid var(--border); margin: 1.5rem 0 1.2rem; padding-top: 1.2rem;">
+              <div
+                style="font-size:0.75rem; color:var(--accent3); letter-spacing:0.1em; text-transform:uppercase; font-weight:700; margin-bottom:1rem;">
+                Learning in Progress</div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>React.js</span><span style="color:var(--accent3);">Learning</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill green" data-width="40"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label"><span>Machine Learning / AI</span><span
+                  style="color:var(--accent3);">Exploring</span></div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill green" data-width="35"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section id="projects">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-lg-6 reveal">
+          <div class="section-label">Projects</div>
+          <h2 class="section-title">Things I've<br>Built</h2>
+          <p class="section-desc">Real-world applications showcasing full-stack capability, from frontend interactions
+            to backend architecture.</p>
+        </div>
+      </div>
+      <div class="row g-4">
+
+        <div class="col-lg-6 reveal">
+          <div class="project-card">
+            <span class="project-badge">Featured</span>
+            <div class="project-number">01</div>
+            <h4>Smart E-Commerce Platform</h4>
+            <p>
+              Architecture: Multi-app Django architecture with role-based authentication,
+              session-based cart system, and normalized MySQL relational database schema.
+            </p>
+            <ul class="project-metrics">
+              <li>3 role-based modules (Customer, Seller, Delivery)</li>
+              <li>10+ relational database tables</li>
+              <li>15+ CRUD operations</li>
+              <li>Product variant system</li>
+            </ul>
+            <div class="project-tech">
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">Django</span>
+              <span class="tech-pill green">MySQL</span>
+              <span class="tech-pill">Bootstrap</span>
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill green">Git</span>
+            </div>
+            <a href="https://github.com/DevWithKarthik" target="_blank" class="project-link">
+              View on GitHub <i class="fas fa-arrow-right" style="font-size:0.75rem;"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 reveal reveal-delay-1">
+          <div class="project-card">
+            <div class="project-number">02</div>
+            <h4>VALMON — Fashion Mart</h4>
+            <p>A responsive multi-page e-commerce UI built with pure HTML, CSS, Bootstrap, and JavaScript. Features
+              reusable components, cross-device compatibility, and interactive user experience across all screen sizes.
+            </p>
+            <div class="project-tech">
+              <span class="tech-pill">HTML</span>
+              <span class="tech-pill">CSS</span>
+              <span class="tech-pill">Bootstrap</span>
+              <span class="tech-pill">JavaScript</span>
+            </div>
+            <a href="https://devwithkarthik.github.io/VALMON-Fashion-Mart---Multi-Page-E-Commerce/" target="_blank"
+              class="project-link">
+              Live Demo <i class="fas fa-external-link-alt" style="font-size:0.75rem;"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 reveal">
+          <div class="project-card">
+            <div class="project-number">03</div>
+            <h4>C4Tech — GSMArena-Inspired App</h4>
+            <p>A server-side rendered Django web application with multi-app architecture, dynamic template rendering,
+              structured URL routing, and full CRUD operations backed by a MySQL database.</p>
+            <div class="project-tech">
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">Django</span>
+              <span class="tech-pill green">MySQL</span>
+            </div>
+            <a href="https://github.com/DevWithKarthik/C4ETECH---Multi-Category-Product-Comparison-Platform--Django-SSR-"
+              target="_blank" class="project-link">
+              View on GitHub <i class="fas fa-arrow-right" style="font-size:0.75rem;"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 reveal reveal-delay-1">
+          <div class="project-card">
+            <div class="project-number">04</div>
+            <h4>JS Quiz + Employee Manager</h4>
+            <p>Two mini-projects: A dynamic quiz app with real-time validation, timer logic, and score tracking using
+              DOM manipulation. Plus a desktop Employee Management System built with Python Tkinter and MySQL featuring
+              full CRUD and secure login.</p>
+            <div class="project-tech">
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">HTML / CSS</span>
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">Tkinter</span>
+              <span class="tech-pill green">MySQL</span>
+            </div>
+            <a href="https://devwithkarthik.github.io/javascript-mini-quiz-project/" target="_blank"
+              class="project-link">
+              Live Demo <i class="fas fa-external-link-alt" style="font-size:0.75rem;"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE & EDUCATION ── -->
+  <section id="experience">
+    <div class="container">
+      <div class="row g-5">
+
+        <div class="col-lg-6 reveal">
+          <div class="section-label">Experience</div>
+          <h2 class="section-title" style="margin-bottom:2.5rem;">Work History</h2>
+          <div class="timeline">
+
+            <!-- SDLC – Current -->
+            <div class="timeline-item">
+              <div class="timeline-dot" style="background: var(--accent3); box-shadow: 0 0 0 4px rgba(6,214,160,0.15);">
+              </div>
+              <div class="timeline-date" style="color: var(--accent3);">Sep 2025 — Present</div>
+              <div class="timeline-title">Python Full-Stack Developer</div>
+              <div class="timeline-company">SDLC Skill Development Learning Center · Coimbatore</div>
+              <div class="timeline-body">
+                <p>Currently pursuing intensive training in Python full-stack development with hands-on experience
+                  building web applications using Django, MySQL, HTML, CSS, Bootstrap, and JavaScript. Developing
+                  real-world projects to strengthen backend development expertise and transition into modern software
+                  engineering roles.</p>
+                <h6>Key Contributions & Learning:</h6>
+                <ul>
+                  <li>Gained practical experience in Python, Django, HTML, CSS, Bootstrap, JavaScript, and MySQL for
+                    full-stack web development.</li>
+                  <li>Developed multiple web applications implementing user authentication, CRUD operations, and
+                    role-based access control using Django.
+                  </li>
+                  <li>Designed and implemented normalized relational database schemas and managed database operations
+                    using MySQL and Django ORM.</li>
+                  <li>Built four projects, including a role-based e-commerce platform and desktop applications
+                    demonstrating backend logic and UI integration.</li>
+                  <li>Applied version control using Git and GitHub to manage code repositories, track changes, and
+                    maintain project history.</li>
+                  <li>Followed structured development practices including modular architecture, debugging, and code
+                    organization.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Wipro – Previous -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-date">May 2022 — Aug 2025</div>
+              <div class="timeline-title">Mainframe Developer</div>
+              <div class="timeline-company">Wipro Technologies · Bangalore, India</div>
+              <div class="timeline-body">
+                <p>Worked on large-scale enterprise insurance and payment processing systems in a high-volume
+                  production environment. Responsible for maintaining and enhancing critical business applications
+                  while ensuring system reliability and performance.</p>
+                <h6>Key Responsibilities</h6>
+                <ul>
+                  <li>Developed and maintained enterprise applications using COBOL, JCL, DB2, and SQL for
+                    mission-critical insurance and financial systems.</li>
+                  <li>Managed and monitored batch job executions, ensuring successful completion of daily production
+                    cycles and SLA compliance.</li>
+                  <li>Performed incident analysis, debugging, and root cause investigation to resolve production issues
+                    and maintain system stability.</li>
+                  <li>Collaborated with cross-functional teams including business analysts, QA teams, and infrastructure
+                    teams to deliver application enhancements and bug fixes.</li>
+                  <li>Worked in both Waterfall and Agile development environments, participating in sprint planning,
+                    daily stand-ups, and defect tracking using JIRA.</li>
+                  <li>Contributed to process improvements and operational efficiency through proactive monitoring and
+                    issue resolution.</li>
+                  <li>Recognized with the Habit Flagbearer Award for consistent delivery, reliability, and professional
+                    conduct.</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-lg-6 reveal reveal-delay-1">
+          <div class="section-label">Education</div>
+          <h2 class="section-title" style="margin-bottom:2rem;">Academics</h2>
+          <div class="cert-item" style="margin-bottom: 2rem;">
+            <div class="cert-icon" style="background: rgba(6,214,160,0.1); color: var(--accent3);">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="cert-text">
+              <h6>B.E – Electrical and Electronics Engineering</h6>
+              <p>Erode Sengunthar Engineering College &nbsp;·&nbsp; 2018–2022 &nbsp;·&nbsp; CGPA: 8.02</p>
+              <p style="color: var(--accent); font-size: 0.78rem; margin-top:0.3rem;">IEEE President – EEE Association
+                (2021–2022)</p>
+            </div>
+          </div>
+
+          <div class="section-label" style="margin-top: 2rem;">Certifications</div>
+          <h3 class="section-title" style="font-size:1.6rem; margin-bottom:1.5rem;">Achievements</h3>
+
+          <div class="cert-item">
+            <div class="cert-icon"><i class="fas fa-award"></i></div>
+            <div class="cert-text">
+              <h6>Python Full-Stack Developer Course</h6>
+              <p>SDLC Skill Development Learning Center, Coimbatore</p>
+            </div>
+          </div>
+          <div class="cert-item">
+            <div class="cert-icon"><i class="fas fa-server"></i></div>
+            <div class="cert-text">
+              <h6>Mainframe Application Programming</h6>
+              <p>Wipro Certified · 2022–2025</p>
+            </div>
+          </div>
+          <div class="cert-item">
+            <div class="cert-icon" style="background: rgba(6,214,160,0.1); color: var(--accent3);">
+              <i class="fab fa-google"></i>
+            </div>
+            <div class="cert-text">
+              <h6>Google Generative AI Fundamentals</h6>
+              <p>Google · AI & Machine Learning</p>
+            </div>
+          </div>
+          <div class="cert-item">
+            <div class="cert-icon"><i class="fab fa-udemy"></i></div>
+            <div class="cert-text">
+              <h6>The Complete JCL Course</h6>
+              <p>Udemy</p>
+            </div>
+          </div>
+          <div class="cert-item" style="margin-bottom:0;">
+            <div class="cert-icon" style="background: rgba(255,200,80,0.1); color: #ffc850;">
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="cert-text">
+              <h6>Habit Flagbearer Award</h6>
+              <p>Wipro Technologies · Recognition for excellence</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 reveal">
+          <div class="contact-card">
+            <h3>Let's Build<br>Something Together</h3>
+            <p>I'm actively looking for <mark
+                style="background-color: #dbeafe; font-weight: 600; border-radius: 5px;">Python Full-Stack</mark> or
+              <mark style="background-color: #dbeafe; font-weight: 600; border-radius: 5px;">Django developer
+                roles.</mark> Open to full-time opportunities,
+              freelance projects, and collaborations.
+            </p>
+            <a href="mailto:karthikanban912@gmail.com" class="btn-primary-custom mb-4"
+              style="display: inline-flex; position: relative;">
+              <i class="fas fa-envelope"></i> karthikanban912@gmail.com
+            </a>
+            <br>
+            <a href="M_Karthik_Resume.pdf" download="Karthik_M_Resume.pdf" class="btn-outline-custom btn-download mb-4"
+              style="display: inline-flex; position: relative; margin: 0 auto 1.5rem;">
+              <i class="fas fa-download" style="font-size:0.8rem;"></i> Download Resume
+            </a>
+            <div class="social-links">
+              <a href="https://github.com/DevWithKarthik" target="_blank" rel="noopener noreferrer" class="social-link">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+              <a href="https://www.linkedin.com/in/karthik912" target="_blank" rel="noopener noreferrer"
+                class="social-link">
+                <i class="fab fa-linkedin"></i> LinkedIn
+              </a>
+              <a href="tel:+916383075553" class="social-link">
+                <i class="fas fa-phone"></i> +91 6383075553
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="container">
+      <p>Built by <span>Karthik M</span> · HTML · CSS · Bootstrap · JavaScript &nbsp;·&nbsp;
+        <a href="https://github.com/DevWithKarthik" target="_blank"
+          style="color: var(--accent); text-decoration:none;">GitHub</a>
+      </p>
+    </div>
+  </footer>
+
+  <button id="scrollTop">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Bootstrap JS -->
+  <script data-cfasync="false"> </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
