@@ -958,4 +958,45 @@ footer span {
   .hero-code-block {
     margin-top: 2rem;
   }
+
+  /* Bootstrap's g-5 gutter (3rem) is wider than the container padding
+     on small screens and causes horizontal scroll - tighten it. */
+  .row.g-5 {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-title {
+    font-size: clamp(2.2rem, 11vw, 3rem);
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .hero-sub {
+    font-size: 0.95rem;
+  }
+}
+
+/* Hero title: "Developer" is ~7.8em wide. Cap the size per Bootstrap
+   container width so it never runs under the code card beside it. */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .hero-title {
+    font-size: 4.2rem;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .hero-title {
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .hero-title {
+    font-size: 5.75rem;
+  }
 }
