@@ -1,6 +1,6 @@
 # 🚀 Karthik M — Personal Portfolio
 
-> Python Full-Stack Developer | Django • MySQL • JavaScript • Bootstrap
+> Software Engineer @ Berribot · Python Full-Stack Developer | Django • DRF • React • PostgreSQL
 
 🌐 **Live Site:** [https://devwithkarthik.github.io/](https://DevWithKarthik.github.io)
 
@@ -32,7 +32,8 @@ portfolio/
 ├── index.html          # Main HTML file
 ├── style.css           # All custom styles & animations
 ├── script.js           # JavaScript interactions
-├── M_Karthik_Resume.pdf  # Downloadable resume
+├── favicon.svg         # Site icon
+├── Karthik_M_resume.pdf  # Downloadable resume
 └── README.md           # You are here
 ```
 
@@ -55,9 +56,9 @@ portfolio/
 
 - **Hero** — Introduction, title, tech stack code block, key stats
 - **About** — Who I am, background, and what I bring
-- **Skills** — Tech stack tags + animated progress bars + currently learning (React, ML, AI)
-- **Projects** — 4 real-world projects with live demo and GitHub links
-- **Experience** — Timeline of SDLC training and Wipro work history
+- **Skills** — Tech stack tags + animated progress bars + currently expanding (AI / LLM integration)
+- **Projects** — 7 real-world projects with live demo and GitHub links
+- **Experience** — Timeline: Berribot, SDLC full-stack program, and Wipro
 - **Education & Certifications** — Degree, certifications, awards
 - **Contact** — Email, LinkedIn, GitHub, Phone
 
@@ -67,10 +68,13 @@ portfolio/
 
 | # | Project | Tech | Link |
 |---|---|---|---|
-| 01 | Smart E-Commerce Platform | Python, Django, MySQL, Bootstrap, JS | GitHub |
-| 02 | VALMON — Fashion Mart | HTML, CSS, Bootstrap, JS | [Live Demo](https://devwithkarthik.github.io/VALMON-Fashion-Mart---Multi-Page-E-Commerce/) |
-| 03 | C4Tech — GSMArena-Inspired App | Python, Django, MySQL | GitHub |
-| 04 | JS Quiz + Employee Manager | JavaScript, Python, Tkinter, MySQL | [Live Demo](https://devwithkarthik.github.io/javascript-mini-quiz-project/) |
+| 01 | ImmiPe — FinTech Platform | Python, Django, DRF, React, PostgreSQL, AWS, Nginx | [immipe.com](https://www.immipe.com/) |
+| 02 | Fuel Route Optimization System | Python, Django, REST API, PostgreSQL, React, Leaflet | [GitHub](https://github.com/DevWithKarthik/fuel-route-optimizer) |
+| 03 | Full Stack Job Portal | Python, Django, REST API, React, PostgreSQL | [GitHub](https://github.com/DevWithKarthik/Jobportal) |
+| 04 | MCK Constructions ERP System | Python, Django, MySQL, Bootstrap, JS | [GitHub](https://github.com/DevWithKarthik/mck-constructions-erp) |
+| 05 | Smart E-Commerce Platform | Python, Django, MySQL, Bootstrap, JS | [GitHub](https://github.com/DevWithKarthik/smart-ecommerce-platform-django) |
+| 06 | C4Tech — Product Comparison Platform | Python, Django, MySQL | [GitHub](https://github.com/DevWithKarthik/C4ETECH---Multi-Category-Product-Comparison-Platform--Django-SSR-) |
+| 07 | VALMON — Fashion Mart | HTML, CSS, Bootstrap, JS | [Live Demo](https://devwithkarthik.github.io/VALMON-Fashion-Mart---Multi-Page-E-Commerce/) |
 
 ---
 
@@ -99,8 +103,8 @@ cd DevWithKarthik.github.io
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source. Feel free to use it as inspiration for your own portfolio.
 
 ---
 
-<p align="center">Designed & Built by <strong>Karthik M</strong> · 2025</p>
+<p align="center">Designed & Built by <strong>Karthik M</strong> · 2026</p>
